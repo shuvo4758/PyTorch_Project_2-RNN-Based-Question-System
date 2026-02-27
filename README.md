@@ -5,8 +5,8 @@ This project implements a simple Question Answering system using a Recurrent Neu
 
 --Project Overview--
 The system takes a natural language question as input and predicts a single-word answer. The process involves:
-1.  Tokenization:** Breaking down sentences into individual words.
+1.  Tokenization: Breaking down sentences into individual words.
 2.  Vocabulary Building: Creating a unique vocabulary of all words from the dataset.
-3.  Numericalization:** Converting words into numerical indices based on the vocabulary.
-4.  Modeling:** Using an RNN to process the sequence of question words and predict the answer.
-5.  Prediction:** Returning a predicted answer or "I Don't know" if the model's confidence is low.
+3.  Numericalization: Converting words into numerical indices based on the vocabulary.
+4.  Modeling: Using an RNN to process the sequence of question words and predict the answer.
+5.  Prediction: Returning a predicted answer or "I Don't know" if the model's confidence is low.
